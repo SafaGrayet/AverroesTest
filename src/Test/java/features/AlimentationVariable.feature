@@ -1,11 +1,12 @@
 Feature: Alimentation Variable
 
   Background: Je connecte à Averroès et je créé un nouveau processus de l'action Alimentation Variable
-    Given je connecte à Averroès en tant que admin
-    Then je vois le dashboard d'admin
-    And je clique sur le lien du dashlet administration processus
+  
 
     Scenario: Alimentation variable d'un initiateur
+      Given je connecte à Averroès en tant que admin
+    Then je vois le dashboard d'admin
+    And je clique sur le lien du dashlet administration processus
       And je consule la dashlet processus
       When je lance le processus "alimentation variable d'un initiateur"
       Then je vois le formulaire avec le nom et le prènom de l'initiateur
