@@ -1,0 +1,4 @@
+[0321/075033.404:ERROR:file_io_win.cc(179)] CreateFile C:\Users\PC-ASUS\AppData\Local\Temp\scoped_dir10560_28518\Crashpad\settings.dat: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus. (0x20)
+[0520/160944.861:ERROR:process_reader_win.cc(123)] NtOpenThread: {Accès refusé} Un processus a demandé l’accès a un objet, mais il ne bénéficie pas des autorisations nécessaires. (0xc0000022)
+[0520/160944.903:ERROR:exception_snapshot_win.cc(88)] thread ID 4208 not found in process
+[0520/160944.903:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed
