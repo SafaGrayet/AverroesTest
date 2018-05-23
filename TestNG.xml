@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Test runner">
-    <test name="Package with subpackages">
-        <packages>
-            <package name="runner.TestRunner"/>
-        </packages>
-    </test>
-</suite>
